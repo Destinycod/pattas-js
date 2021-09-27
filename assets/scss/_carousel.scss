@@ -1,0 +1,78 @@
+@import "colores";
+
+.labelCarousel{
+    font-family: 'Prompt', sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+    img{
+    width: 5%;
+    height: auto;}
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+    .labelSliderEnvio{
+      position: absolute;
+      right: 15%;
+      top: 50px;
+      left: 55%;
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      p{
+        margin-top: 30px;
+        font-size: 25px;
+        color: rgb(219, 133, 133);
+        -webkit-text-stroke: 0.8px rgb(202, 86, 86);
+        font-weight: bolder;
+      }
+      h2{
+        font-size: 35px;
+        color: rgb(202, 86, 86);
+        -webkit-text-stroke: 0.8px rgb(219, 133, 133);
+        font-weight: bolder;
+      }
+    }
+    .labelSliderServicios{
+      position: absolute;
+      right: 55%;
+      top: 20px;
+      left: 15%;
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: left;
+      -webkit-text-stroke: 0.8px white;
+      font-weight: bolder;
+      p{
+        margin-top: 15px;
+        font-size: 25px;
+        color: $naranjaP;
+        -webkit-text-stroke: 0.8px $rojoP;
+        
+      }
+      h2{
+        font-size: 35px;
+        color: $rojoP;
+        -webkit-text-stroke: 0.8px $naranjaP;
+        
+        margin-bottom: 15px;
+      }
+    }
+    
+}
+
+
+  
+  
+  

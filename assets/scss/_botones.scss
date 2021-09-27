@@ -1,0 +1,64 @@
+@import "colores";
+
+.boton{
+    width: 130px;
+    height: 50px;
+    color: $blanco;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid $negro;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.boton--comprar{
+    @extend .boton;
+    background-color: $blanco;
+    color: $negro;
+    border: 2px solid $naranjaP;}
+   
+.boton--comprar:hover{
+    background-color: $naranjaP;
+    color: $blanco;
+}
+.boton--añadir{
+    @extend .boton;
+    background-color: $blanco;
+    color: $negro;
+    border: 2px solid $rojoP;
+}
+.boton--añadir:hover{
+    background-color: $rojoP;
+    color: $blanco;
+}
+
+.boton--enviar{
+    @extend .boton;
+    border-radius: 0px;
+    background-color: $blanco;
+    color: $negro;
+    border: 2px solid gray;
+}
+.boton--enviar:hover{
+    background-color: gray;
+    color: $blanco;
+}
+
+.boton--resetear{
+    @extend .boton;
+    border-radius: 0px;
+    background-color: $blanco;
+    color: $negro;
+    border: 2px solid darkgray;
+}
+.boton--resetear:hover{
+    background-color: darkgray;
+    color: $blanco;
+}

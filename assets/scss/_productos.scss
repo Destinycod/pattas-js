@@ -1,0 +1,26 @@
+@import "colores";
+@import "generales";
+
+.contProductos{
+    .groupCheckbox{
+        p{
+            text-align: center;
+            color: $naranjaP;
+            font-weight: bolder;
+        }
+    }
+    .titulosCategorias{
+        font-size: 25px;
+        text-align: center;
+        color: $naranjaP;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .imgCentrado{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .paddingBot{
+        padding-bottom: 22px;
+    }
+}

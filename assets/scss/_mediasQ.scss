@@ -1,0 +1,114 @@
+/* vista mobile */
+@media only screen and (min-width:0px) and (max-width:969.9px){
+  .header{
+    text-align: center;
+    .carrito{
+      display: none;
+    }
+    .login{
+      display: none;
+    }
+  }
+  .labelCarousel{
+    font-size: 25px;
+  }
+  .carousel{
+    display: none;
+  }
+  .imgSliderMobile{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    .labelSliderEnvioV{
+      h2{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-decoration: underline;
+        font-size: 30px;
+      }
+    }
+  }
+  .imgMarcas{
+    width: 38.5%;
+    height: auto;
+  }
+  .imgFilas{
+    width: auto;
+    height: 200px;
+  }
+  .columnas{
+    text-align: center;
+    padding-top: 5px;
+  }
+  .tituloContacto{
+    img{
+      width: 365px;
+      height: auto;
+    }
+  }
+  .footer{
+    text-align: center;
+    .footerD{
+      display: none;
+    }
+  }
+}
+/* vista desktop */
+@media only screen and (min-width:970px){
+  .header{
+    .carrito{
+      display: flex;
+      align-items: center;
+      img{
+          width: 80%;
+          height: auto;
+      } 
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        img{
+            width: 80%;
+            height: auto;
+        }
+    }
+  }  
+  .nav-item{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .imgSliderMobile{
+    display: none; 
+  }
+  .labelCarousel{
+    font-size: 35px;
+  }
+  .carousel-item{
+    .imgCarousel{
+      width: 1500px;
+      height: 320px;
+    }
+  }
+  .form-inline{
+    padding-left: 30px;
+  }
+  .imgFilas{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: auto;
+    height: 250px;
+    transition: all 1s;
+  }
+  .imgFilas:hover{
+    transform: translateY(-15px);
+  }
+  .columnas{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
